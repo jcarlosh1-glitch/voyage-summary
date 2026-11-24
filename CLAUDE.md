@@ -27,6 +27,10 @@ https://youtube.com/shorts/aX7QAfld7hs). Para cada una, qué usar en estas sesio
   - `public/index.html`: portada (landing page) con el botón "Start a voyage summary".
     Rehecha a partir de la captura de la portada original; fondo `public/ship-bg.jpg`.
   - `public/app/index.html`: la app (Voyage Summary Builder para cruceros de Oceania), en /app/.
+    Mismo estilo que la portada (azul marino #0f2440, dorado, letra Nunito); la hoja impresa
+    mantiene su propio estilo.
+  - Icono y ajustes para la pantalla de inicio del móvil: `apple-touch-icon.png`, `icon-192.png`,
+    `icon-512.png` y `manifest.webmanifest`.
 - Antes de sustituir algo publicado, mirar qué hay en la web y no perderlo.
 - Se publica en Netlify, sitio `voyage-summary-jc`, dominio https://www.jccruisesummary.com.
 - Cambios: rama de trabajo, solicitud de cambio (pull request) a `main`, y el usuario la
