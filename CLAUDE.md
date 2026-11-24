@@ -23,8 +23,11 @@ https://youtube.com/shorts/aX7QAfld7hs). Para cada una, qué usar en estas sesio
 
 ## Datos del proyecto
 
-- La app es un único archivo, `public/index.html` (Voyage Summary Builder para cruceros de Oceania).
-  Netlify publica solo la carpeta `public/` (ver `netlify.toml`); el resto del repositorio no se ve en la web.
+- Netlify publica solo la carpeta `public/` (ver `netlify.toml`); el resto del repositorio no se ve en la web.
+  - `public/index.html`: portada (landing page) con el botón "Start a voyage summary".
+    Rehecha a partir de la captura de la portada original; fondo `public/ship-bg.jpg`.
+  - `public/app/index.html`: la app (Voyage Summary Builder para cruceros de Oceania), en /app/.
+- Antes de sustituir algo publicado, mirar qué hay en la web y no perderlo.
 - Se publica en Netlify, sitio `voyage-summary-jc`, dominio https://www.jccruisesummary.com.
 - Cambios: rama de trabajo, solicitud de cambio (pull request) a `main`, y el usuario la
   aprueba. Netlify está conectado a GitHub y publica solo al aprobar; después comprobar que
