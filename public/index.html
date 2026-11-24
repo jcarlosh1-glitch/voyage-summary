@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Voyage Summary Builder</title>
+<meta name="description" content="One clear page per voyage, in about a minute.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{
+    font-family:Nunito,"Segoe UI",Helvetica,Arial,sans-serif;color:#fff;
+    background:#0f2440 url("ship-bg.jpg") center/cover no-repeat;
+    display:flex;flex-direction:column;min-height:100vh;
+  }
+  main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 20px 20px}
+  .badge{width:66px;height:66px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    background:rgba(255,255,255,.12);border:1px solid rgba(232,190,90,.45);margin-bottom:28px}
+  .badge svg{width:30px;height:30px}
+  h1{font-size:clamp(30px,5.2vw,40px);font-weight:800;margin:0 0 12px;letter-spacing:.2px;text-shadow:0 2px 12px rgba(0,0,0,.25)}
+  p.tag{font-size:clamp(15px,2.2vw,17px);color:rgba(255,255,255,.85);margin:0 0 34px}
+  a.cta{display:inline-block;padding:16px 34px;border-radius:999px;font-weight:800;font-size:17px;color:#1e2a3a;text-decoration:none;
+    background:linear-gradient(180deg,#f0cc72,#d8a944);box-shadow:0 8px 24px rgba(0,0,0,.35);transition:transform .15s,box-shadow .15s}
+  a.cta:hover,a.cta:focus-visible{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,0,0,.4)}
+  a.cta:focus-visible{outline:3px solid #fff;outline-offset:3px}
+  footer{text-align:center;font-size:12.5px;color:rgba(255,255,255,.7);padding:0 16px 30px}
+</style>
+</head>
+<body>
+<main>
+  <div class="badge" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#e8be5a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="5" r="2.2"/><line x1="12" y1="7.2" x2="12" y2="21"/><line x1="8" y1="11" x2="16" y2="11"/>
+      <path d="M4.5 13.5c0 4.2 3.4 7.5 7.5 7.5s7.5-3.3 7.5-7.5"/><polyline points="3 15 4.5 13.5 6 15"/><polyline points="18 15 19.5 13.5 21 15"/>
+    </svg>
+  </div>
+  <h1>Voyage Summary Builder</h1>
+  <p class="tag">One clear page per voyage, in about a minute.</p>
+  <a class="cta" href="app/">Start a voyage summary</a>
+</main>
+<footer>Created by Juan Carlos Cortés Hernández &nbsp;·&nbsp; Version 13 Nov 2026</footer>
+</body>
+</html>
