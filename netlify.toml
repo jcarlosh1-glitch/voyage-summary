@@ -1,0 +1,3 @@
+# Only the app is published. Working files (CLAUDE.md, this file...) stay out of the website.
+[build]
+  publish = "public"
