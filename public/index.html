@@ -306,6 +306,16 @@ body.pdfshot .head h1{font-size:22px!important}
 @media(max-width:520px){#cover h1{font-size:30px}#cover p.cvSub{font-size:16px}}
 body.viewer #cover{display:none!important}
 html.showcover #cover{display:flex}
+
+/* iPad and phone: controls on top, full width; the summary sheet below. Desktop and printing unchanged. */
+@media screen and (max-width:1160px){
+  body.ed .wrap{display:block;max-width:820px}
+  #editor{position:static;max-height:none;overflow:visible;padding-right:0;margin-bottom:16px}
+  .sheet{width:100%;min-height:0}
+}
+@media screen and (max-width:600px){
+  body.ed .wrap{padding:10px}
+}
 </style>
 <script>if(!/^#q=/.test(location.hash))document.documentElement.classList.add('showcover');</script>
 </head>
